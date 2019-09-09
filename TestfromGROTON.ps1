@@ -1,6 +1,6 @@
 ﻿$user = "Administrator"
 $servers = get-content -path C:\Srv.txt
-$cred = Get-Credential -Credential hq-tc-dc1\administrator
+$cred = Get-Credential -Credential *****
 #$path = Test-path "\\$_.\admin$"
 $status = "Failed to change Password"
 $newpwd1 = Read-Host -Prompt "Enter new password" -AsSecureString

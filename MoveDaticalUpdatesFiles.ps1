@@ -20,7 +20,7 @@ Write-host "Files have finish copying!!" -ForegroundColor Green
 pause 
 
 
-$server = "gro-jenk01w-d"
+$server = ""
 $service = get-service -ComputerName $server Tom*
 
 If ($service -eq "Running") {restart-service}

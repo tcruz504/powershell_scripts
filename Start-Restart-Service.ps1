@@ -1,4 +1,4 @@
-﻿$service = Get-service "Tomcat5" -ComputerName Ncert-cert
+﻿$service = Get-service "Tomcat5" -ComputerName ""
 
 If ($service -eq "Stopped") {
 

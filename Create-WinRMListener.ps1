@@ -1,4 +1,8 @@
-﻿#Requires -Version 3.0 
+﻿
+ # Found in Github
+ # Use this script to open WinRM to allow Window host to be controlled by Ansible
+ 
+ #Requires -Version 3.0 
 
 # Configure a Windows host for remote management with Ansible 
 # ----------------------------------------------------------- 

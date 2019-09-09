@@ -1,5 +1,5 @@
 ﻿$user = "Administrator"
-$servers = get-content -path C:\SrvsDTINC.txt
+$servers = get-content -path C:\Srvs.txt
 $status = "Failed to change Password"
 $newpwd1 = Read-Host -Prompt "Enter new password" -AsSecureString
 $newpwd2 = Read-Host -Prompt "Re-type new password" -AsSecureString

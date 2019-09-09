@@ -1,5 +1,5 @@
-﻿$logPath = "C:\Users\tomas.cruz\Desktop\pingResults.txt"
-$stateIP = "170.145.0.36"
+﻿$logPath = "C:\Users\location\Desktop\pingResults.txt"
+$stateIP = "ip"
 
 if (!(test-path $logPath)){
     New-Item $logPath -ItemType file

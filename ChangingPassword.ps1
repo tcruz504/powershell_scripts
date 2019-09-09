@@ -1,5 +1,5 @@
 ﻿$user = "Administrator"
-$pass = "F00tB@ll!"
+$pass = ""
 $servers = Get-Content -path C:\Servers.txt
 foreach ($server in $servers){
 $newpass = [ADSI]"WinNT://$_/$user,user"

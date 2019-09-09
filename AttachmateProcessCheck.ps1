@@ -1,5 +1,6 @@
 ﻿$logPath = "C:\AttachmateLogs\Logs.txt"
-                           
+ 
+While (1 -eq 1)                          
 Do
     {
         $date = Get-Date
@@ -16,5 +17,5 @@ Do
 
      }
 
-While (1 -eq 1)
+
 

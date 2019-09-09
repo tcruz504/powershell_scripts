@@ -1,6 +1,6 @@
 ﻿$user = "Administrator"
 $servers = get-content -path C:\Srvs.txt
-$pass = "%Cr0wd3d!"
+$pass = ""
 foreach ($server in $servers)
 {
 if ((Test-Connection -ComputerName $server -Count 1 -Quiet) -eq $True)

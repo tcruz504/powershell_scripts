@@ -5,7 +5,7 @@
 #                                #
 ##################################
 
-$srv = "Gro-FLS01W-C"
+$srv = ""
 $service = Get-service -ComputerName $srv Tom*
 
 If ($service.status -eq "Running" -and "Stopped") {Restart-Service}
